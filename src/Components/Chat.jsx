@@ -109,7 +109,7 @@ const Chat = ({ companionNumber, userInfo }) => {
   //message listener, every 10 sec
   useEffect(() => {
     const a = setInterval(() => {
-      // messageParse()
+      messageParse()
     }, 10000);
 
     return () => clearInterval(a);
