@@ -16,7 +16,24 @@
   }
 }
 
-body {
+@layer components {
+  .background {
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(
+      to bottom,
+      #009788 0%,
+      #009788 15%,
+      #d9dbd6 15%,
+      #d9dbd6 100%
+    );
+  }
+  .icons {
+    color: rgb(107 114 128);
+  }
+}
+
+/* body {
   color: rgb(var(--foreground-rgb));
   background: linear-gradient(
       to bottom,
@@ -24,4 +41,4 @@ body {
       rgb(var(--background-end-rgb))
     )
     rgb(var(--background-start-rgb));
-}
+} */
